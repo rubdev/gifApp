@@ -1,0 +1,24 @@
+{
+  "name": "gifapp",
+  "version": "1.0.0",
+  "description": "Una aplicación SPA con Javascript capaz de buscar y obtener gifs desde Giphy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubdev/gifApp.git"
+  },
+  "keywords": [
+    "javascript",
+    "spa",
+    "gifs"
+  ],
+  "author": "Rubén Segura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubdev/gifApp/issues"
+  },
+  "homepage": "https://github.com/rubdev/gifApp#readme"
+}
