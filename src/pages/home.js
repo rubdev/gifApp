@@ -1,4 +1,4 @@
-const Home = async () => {
+const Home = () => {
     const view = `
         <div class="row gifs">
             <article class="col gif-item">

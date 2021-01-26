@@ -1,14 +1,17 @@
 const Header = () => {
     const view = `
-        <div class="navbar header-main">
+        <nav class="navbar navbar-dark bg-dark header-main">
             <div class="navbar-brand header-logo">
                 <h1>
                     <a href="/">
                         Gif.app
                     </a>
                 </h1>
+                <small class="text-success font-weight-bolder">
+                    A partir de ahora tu buscador de gifs favorito
+                </small>
             </div>
-        </div>
+        </nav>
     `;
     return view;
 };
