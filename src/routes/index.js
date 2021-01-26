@@ -1,15 +1,16 @@
-import home from '../pages/home';
-import header from '../templates/header';
+import Home from '../pages/home';
+import Header from '../templates/header';
 
 const routes = {
-    '/': home
+    '/': Home
 };
 
-const router = async () => {
+const router = () => {
     const header = null || document.getElementById('header');
     const content = null || document.getElementById('content');
 
-    header.innerHTML = await header();
+    header.innerHTML = Header();
+    content.innerHTML = Home();
 }
 
 export default router;
