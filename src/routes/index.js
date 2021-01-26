@@ -6,14 +6,14 @@ const routes = {
     '/': Home
 };
 
-const router = () => {
+const router = async () => {
     const header = null || document.getElementById('header');
     const content = null || document.getElementById('content');
     const footer = null || document.getElementById('footer');
 
-    header.innerHTML = Header();
-    content.innerHTML = Home();
-    footer.innerHTML = Footer();
+    header.innerHTML = await Header();
+    content.innerHTML = await Home();
+    footer.innerHTML = await Footer();
 }
 
 export default router;
