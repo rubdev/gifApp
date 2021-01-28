@@ -7,8 +7,7 @@ const Home = async () => {
         <div class="row mt-5 gifs">
             ${trendingGifs.data.map(gif => `
                 <article class="col mt-2  gif-item">
-                    <img src="${gif.images.fixed_height.url}" alt="${gif.title}">
-                    <h3>${gif.title}</h3>
+                    <img class="rounded" src="${gif.images.fixed_height.url}" alt="${gif.title}">
                 </article>
                 `).join('')}
             

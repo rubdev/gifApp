@@ -1,3 +1,4 @@
+
 const Header = () => {
     const view = `
         <nav class="navbar navbar-dark bg-dark header-main">
@@ -7,7 +8,7 @@ const Header = () => {
                         Gif.app
                     </a>
                 </h1>
-                <small class="text-success font-weight-bolder">
+                <small class="font-weight-bolder">
                     A partir de ahora tu buscador de gifs favorito
                 </small>
             </div>
